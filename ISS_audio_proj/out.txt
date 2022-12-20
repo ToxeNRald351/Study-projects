@@ -1,0 +1,36 @@
+4.1 Zaklady
+In samples: 29389
+In seconds: 1.8368125
+Minimum: -2741.0
+Maximum: 3047.0
+See 'Signal_look.png' for result
+
+4.2 Predspracovani a ramce
+Normalized minimum: -0.08364494858766779
+Normalized maximum: 0.09299079359983221
+See 'Pekny_Signal.png' for result
+
+4.3 DFT
+Use np.fft.fft function on 'Pěkný signal'. See 'Standard FFT func.png' for result
+Use my DFT function on 'Pěkný signal'. See 'My DFT func.png' for result
+
+4.4 Spectrogram
+SeeSignal spec.png for result
+
+4.5 Určení rušivích freqvencí
+Rušivé freqvence: 
+924.971928272483 Hz
+1850.4882779271156 Hz
+2776.0046275817485 Hz
+3700.9765558542313 Hz
+
+4.6 Generování signalu
+Check '4cos.wav' for result
+SeeNoise spec.png for result
+
+4.7 Čisticí filtr + 4.9 Freq Chars + 4.10 Filtrace
+Check 'clean_bandstop.wav' for result
+See different 'Filter #X chars.png' for result
+
+4.8 Nulové body a poly
+See 'Zeros and poles.png' for result

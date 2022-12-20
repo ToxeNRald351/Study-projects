@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program language="IPPcode22" description="concatenation">
+    <instruction order="1" opcode="WRITE">
+        <arg1 type="string">test1</arg1>
+    </instruction>
+    <instruction order="2" opcode="DEFVAR">
+        <arg1 type="var">GF@b</arg1>
+    </instruction>
+    <instruction order="3" opcode="MOVE">
+        <arg1 type="var">GF@b</arg1>
+        <arg2 type="string">dkbd</arg2>
+    </instruction>
+    <instruction order="4" opcode="WRITE">
+        <arg1 type="var">GF@b</arg1>
+    </instruction>
+    <instruction order="5" opcode="CREATEFRAME">
+    </instruction>
+    <instruction order="6" opcode="DEFVAR">
+        <arg1 type="var">TF@b</arg1>
+    </instruction>
+    <instruction order="7" opcode="MOVE">
+        <arg1 type="var">TF@b</arg1>
+        <arg2 type="string">bvalue</arg2>
+    </instruction>
+    <instruction order="9" opcode="WRITE">
+        <arg1 type="var">TF@b</arg1>
+    </instruction>
+    <instruction order="11" opcode="PUSHFRAME">
+    </instruction>
+    <instruction order="12" opcode="WRITE">
+        <arg1 type="var">LF@b</arg1>
+    </instruction>
+    <instruction order="14" opcode="POPFRAME">
+    </instruction>
+    <instruction order="15" opcode="WRITE">
+        <arg1 type="var">TF@b</arg1>
+    </instruction>
+    
+    <instruction order="20" opcode="PUSHFRAME">
+    </instruction>
+    <instruction order="21" opcode="CREATEFRAME">
+    </instruction>
+    <instruction order="22" opcode="PUSHFRAME">
+    </instruction>
+    <instruction order="23" opcode="DEFVAR">
+        <arg1 type="var">LF@b</arg1>
+    </instruction>
+    <instruction order="26" opcode="MOVE">
+        <arg1 type="var">LF@b</arg1>
+        <arg2 type="string">ggggggg</arg2>
+    </instruction>
+    <instruction order="27" opcode="WRITE">
+        <arg1 type="var">LF@b</arg1>
+    </instruction>
+    <instruction order="29" opcode="POPFRAME">
+    </instruction>
+    <instruction order="30" opcode="BREAK">
+    </instruction>
+</program>
